@@ -1,0 +1,5 @@
+.add_movie_wrap {
+    position: relative;
+    overflow: hidden;
+    padding:30px;
+}

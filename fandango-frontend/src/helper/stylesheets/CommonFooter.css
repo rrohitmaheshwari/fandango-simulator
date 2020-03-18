@@ -1,0 +1,60 @@
+
+#general_footer {background: #aaa;
+    color:white;
+    flex-flow: row wrap;
+    text-align: center;
+     position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+#general_footer div a{
+    padding: 12px;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 7px;
+    border-radius: 100%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}

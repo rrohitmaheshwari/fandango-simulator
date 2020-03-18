@@ -1,0 +1,40 @@
+.movie_navbar {
+    background-color: #262626;
+}
+
+.movie_navbar_title {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: alternate-gothic-no-1-d, "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 45px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    vertical-align: top;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+}
+
+.movie_navbar_link-list {
+    margin-bottom: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.movie_navbar_link-item {
+    display: inline-block;
+    margin-right: 36px;
+}
+
+.movie_navbar_link-item_info {
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all .2s ease-in-out;
+}

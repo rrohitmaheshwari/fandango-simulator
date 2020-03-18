@@ -1,0 +1,256 @@
+.myprofile_main_wrap {
+    position: relative;
+    min-width: 320px;
+    overflow: hidden;
+    background: #ebebeb;
+}
+
+.myprofile_sub-head {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.myprofile_accordion_title {
+    background: #fff !important;
+    border: #ccc 1px solid !important;
+        
+}
+/* .myprofile_accordion_border_none {
+
+} */
+
+.myprofile_save_button {
+    background: #f15500;
+    border-color: #f15500;
+    color: #fff;    
+}
+
+.myprofile_save_button:hover {
+    background: #ff7900;
+    border-color: #ff7900;
+    color: #fff;    
+}
+
+.credit-card-logos span {
+    background: url(../images/credit-card-sprite.png) no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    margin-right: 9px;
+}
+
+.credit-card-logos .visa {
+    background-position: 0 0;
+    height: 38px;
+    width: 53px;
+}
+
+.credit-card-logos .amex {
+    background-position: 0 -204px;
+    height: 29px;
+    width: 49px;
+}
+
+.credit-card-logos .mastercard {
+    background-position: 0 -77px;
+    height: 33px;
+    width: 52px;
+}
+
+.credit-card-logos .discover {
+    background-position: 0 -110px;
+    height: 32px;
+    width: 51px;
+}
+
+.myprofile_heading-style-1 {
+    color: #4c4c4c;
+    /* font-family: "alternate-gothic-no-1-d","Futura Condensed","Arial Narrow",Arial,sans-serif;
+    font-size: inherit; 
+    font-weight: 200;*/
+    text-transform: uppercase;
+}
+
+.myprofile_heading-size-l {
+    font-size: 38px;
+    line-height: 35px;
+}
+
+.myprofile_border_none{
+    border: none;
+}
+
+.profile-avatar-image {
+    text-align: center;
+    /* position: relative; */
+    bottom: auto;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    /* top: -20px; */
+    border: 0px;
+    margin: 0px;
+    border-bottom-color: rgb(31, 40, 54);
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(31, 40, 54);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(31, 40, 54);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(31, 40, 54);
+    border-top-style: none;
+    border-top-width: 0px;
+}
+.profile-avatar-image-uploader {
+    position: relative;
+    width: 100%;
+    /* height: 270px; */
+    width: 270px;
+    padding-bottom: 270px;
+}
+
+.profile-avatar-image-wrapper {
+    height: 213.75px;
+    width: 213.75px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-bottom-color: rgb(190, 192, 194);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(190, 192, 194);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(190, 192, 194);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(190, 192, 194);
+    border-top-style: solid;
+    border-top-width: 1px;
+
+}
+
+.profile-avatar-image-done {
+    height: 211.75px;
+    width: 211.75px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: inherit;
+    display: block;
+    overflow: hidden;
+    border: 10px solid #fff;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-image-outset: 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: solid;
+    border-right-width: 10px;
+    border-top-color: rgb(255, 255, 255);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    display: block;
+
+}
+
+.picture-upload-trigger{
+    -webkit-transition: ease-in all .2s;
+    transition: ease-in all .2s;
+    background: rgba(25,32,45,.7);
+    border-radius: 0 4px 0 0;
+    bottom: 11px;
+    color: #fff;
+    left: 11px;
+    position: absolute;
+    right: 74%;
+    text-align: center;
+    top: 75%;
+}
+.picture-upload-trigger:hover{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    outline: 0;
+    width: 248px;
+    height: 248px;
+    background: rgba(25,32,45,.7);
+}
+
+.picture-upload-trigger-inner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 32px;
+    color: #fff;
+}
+
+.picture-upload-trigger:hover .picture-upload-trigger-text {
+    display: block;
+    margin-top: 15px;
+    opacity: 1;
+    transition: ease-in all 1s;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.picture-upload-trigger-text {
+    transition: ease-in all .2s;
+    display: none;
+    opacity: 0;
+}
+
+.avatar-image {
+    width: 248px;
+    height: 246.735px;
+    object-fit: cover;
+}
+
+.file-upload-area{
+    /* height: 250px;
+    width: 400px; */
+    text-align: center;
+}
+
+.drop-area{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 170px;
+    color: inherit;
+    font-family: Arial;
+    border: 4px dashed;
+    border-color: inherit;
+}

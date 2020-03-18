@@ -1,0 +1,167 @@
+.movie_checkout_wrap {
+    background-color: #EBEBEB;
+    box-sizing: border-box;
+    color: #4C4C4C;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    height: 100vh;
+}
+
+.movie-checkout-content {
+    padding-top: 30px;
+}
+
+.movie-checkout-info {
+    margin-bottom: 20px;
+    position: relative;
+    background: #fff;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #ccc;
+    direction: ltr;
+}
+
+.movie-checkout-info-side {
+    margin-right: 0px;
+    vertical-align: top;
+    width: 298px;
+    display: inline-block;
+    font-size: 13px;
+    padding: 0;
+    direction: ltr;
+
+}
+
+.movie-checkout-info-side-content {
+    margin-bottom: 0;
+    position: relative;
+    background: #fff;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #ccc;
+    direction: ltr;
+}
+
+.movie-checkout-info-side-content-bottom {
+    border-bottom: 1px solid #ccc;
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    margin: 0;
+    padding: 15px 20px 13px;
+    position: relative;
+    text-align: center;
+    direction: ltr;
+}
+
+.movie_checkout {
+    font-family: alternate-gothic-no-1-d,"Futura Condensed","Arial Narrow",Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 35px;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 0 30px;
+    border-bottom: 10px solid #4c4c4c;
+    float: left;
+    margin-left: 40%;
+}
+
+.movie_checkout::after {
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    display: block;
+    margin: auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #EBEBEB;
+    left: 0;
+    content: "";
+}
+
+.movie-checkout-info-header {
+    font-size: 26px;
+    line-height: 21px;
+    margin-bottom: 14px;
+    margin-top: 0;
+    font-weight: normal;
+    font-family: "alternate-gothic-no-1-d", "Futura Condensed", "Arial Narrow", Arial, sans-serif;
+    text-transform: uppercase;
+    color: #4c4c4c;
+    text-rendering: optimizeLegibility;
+}
+
+.movie-checkout-info-tickets-available {
+    padding: 0 0 10px 0;
+}
+
+.movie-checkout-info-book-tickets {
+    background: none;
+    border: none;
+}
+
+.movie-checkout-type {
+    color: #4C4C4C;
+    font-size: 14px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    text-align: right;
+    font-weight: 600;
+}
+
+.movie-checkout-text {
+    color: #4C4C4C;
+    font-size: 14px;
+    padding: 0px 5px 7px 5px;
+    font-weight: 600;
+}
+
+.movie-checkout-quantity {
+    width: 60px;
+}
+
+.movie-checkout-char {
+    width: 10px;
+}
+
+.movie-checkout-price {
+    width: 50px;
+}
+
+.movie-checkout-total {
+    width: 100px;
+}
+
+.movie-confirm-seats {
+    width: 120px;
+    height: 47px;
+    padding: 13px 0;
+    margin: 3px;
+    text-align: center;
+    background: #f15500;
+    border-radius: 4px;
+    color: #fff !important;
+    overflow: hidden;
+    transition: all .3s;
+    display: inline-block;
+    cursor: pointer;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    box-shadow: none;position: relative;
+    text-decoration: none;
+}
+
+.movie-rightside-info {
+    color: #1b1b1b;
+    font-weight: 600;
+}
+
+.movie-booking-confirmation {
+    color: #1b1b1b;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    display: inline-block;
+    font-family: "Times New Roman",Times,Baskerville,Georgia,serif;
+}

@@ -1,0 +1,168 @@
+.movie-times-theatres {
+    margin-bottom: 15px;
+    width: auto;
+    padding: 0 .5rem;
+}
+
+.movie-times-box {
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.movie-times-box-header {
+    background: #262626;
+    color: #fff;
+    padding: 10px;
+}
+
+.movie-times-box-header-headline {
+    display: flex;
+    align-items: center;
+}
+
+.movie-times-headline {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: alternate-gothic-no-1-d,"Futura Condensed","Arial Narrow",Arial,sans-serif;
+    line-height: 1em;
+    margin: 0;
+}
+
+.movie-times-select-show-date {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: alternate-gothic-no-1-d,"Futura Condensed","Arial Narrow",Arial,sans-serif;
+    line-height: 1em;
+    padding-left: 25%;
+    margin-top: 30px;
+}
+
+.movie-times-address {
+    display: inline-block;
+    margin-right: 10px;
+    color: #929292;
+}
+
+.movie-times-links {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.movie-times-link-info {
+    font-size: 12px;
+    font-family: proxima-nova-condensed,Helvetica,Arial,sans-serif;
+    line-height: 1em;
+    background-color: transparent;
+    text-decoration: none !important;
+    color: #4AA7F6;
+    transition: color .3s linear;
+}
+
+.movie-times-link-info:hover {
+    color: #0286F2;
+}
+
+.movie-times-box-showtimes {
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.movie-times-showtimes {
+    padding: 15px 20px 15px 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.movie-times-showtimes-header {
+    color: #929292;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    display: inline-block;
+    font-family: "Times New Roman",Times,Baskerville,Georgia,serif;
+    margin: 0 0 15px 0;
+}
+
+.movie-times-showtimes-screennumber {
+    color: #929292;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    display: inline-block;
+    font-family: "Times New Roman",Times,Baskerville,Georgia,serif;
+}
+
+.movie-times-showtimes-amenity {
+    padding: 10px 0;
+    color: #929292;
+    list-style-type: none;
+    margin: 0;
+}
+
+.movie-times-showtimes-amenity-item {
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 1.6;
+    vertical-align: bottom;
+}
+
+.movie-times-showtimes-btn {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+}
+
+.movie-times-showtimes-btn-item {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.movie-showtimes-btn-disabled {
+    width: 89px;
+    padding: 13px 0;
+    margin: 3px;
+    text-align: center;
+    background: #f15500;
+    border-radius: 4px;
+    color: #fff !important;
+    font-size: 16px;
+    overflow: hidden;
+    transition: all .3s;
+    display: inline-block;
+    cursor: default;
+    font-weight: 700;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    box-shadow: none;position: relative;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.movie-showtimes-btn {
+    width: 89px;
+    padding: 13px 0;
+    margin: 3px;
+    text-align: center;
+    background: #f15500;
+    border-radius: 4px;
+    color: #fff !important;
+    font-size: 16px;
+    overflow: hidden;
+    transition: all .3s;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    box-shadow: none;position: relative;
+    text-decoration: none;
+}
+
+.movie-times-loading {}

@@ -1,0 +1,9 @@
+.account_main_wrap {
+    position: relative;
+    min-width: 320px;
+    overflow: hidden;
+}
+
+.account_main {
+    background: #ebebeb;
+}

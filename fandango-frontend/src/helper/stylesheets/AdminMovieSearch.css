@@ -1,0 +1,61 @@
+.AdminMovieSearch_Table_Header {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    height: 50px;
+    background-color: #212529;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.AdminMovieSearch_Table {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: #ffffff;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+
+.AdminMovieSearch_Table div img {
+    margin-left: -15px;
+    height: 200px;
+}
+
+.AdminMovieSearch_Table div img:hover{
+    margin-left: -15px;
+    height: 200px;
+    opacity: 0.9;
+}
+
+.AdminMovieSearch_BuyTickets{
+    background-color: #f28826;
+    border-color: #f28826;
+}
+
+.AdminMovieSearch_BuyTickets:hover{
+    background-color: #f28826;
+    border-color: #f28826;
+    opacity: 0.9;
+}
+
+
+.AdminMovieSearch_searchbar{
+    float: right;
+    height: 100%;
+}
+
+.AdminMovieSearch_table_Title{
+    text-transform: uppercase;
+}
+
+
+

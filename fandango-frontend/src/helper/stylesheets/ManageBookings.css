@@ -1,0 +1,53 @@
+.mangebooking_main_wrap {
+    position: relative;
+    min-width: 320px;
+    overflow: hidden;
+    background: #ebebeb;
+    height: 100vh;
+}
+
+
+.Booking_Table_Header {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: #ffffff;
+    margin-bottom: 7px;
+    margin-top: 30px;
+    height: 50px;
+    background-color: #212529;
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 0px;
+
+}
+
+.Booking_Table {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: #ffffff;
+    margin-bottom: 7px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 50px;
+}
+.manageBookings-btn-date-times {
+    cursor: pointer;
+    margin-top: 5%;
+    display: inline-block;
+    text-align: center;
+    background: white;
+    /* color: rgb(77, 82, 91); */
+    /* font-weight: 400; */
+    border: 1px solid rgb(190, 192, 194);
+    text-shadow: 0 -1px transparent;
+    /* padding: 13px 22px; */
+    border-radius: 3px;
+    /* width: 200px; */
+    /* height: 125px; */
+    /* font-size: 30px; */
+    /* line-height: 30px; */
+    /* text-transform: uppercase; */
+}

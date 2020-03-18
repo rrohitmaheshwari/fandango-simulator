@@ -1,0 +1,80 @@
+.signin-background {
+    background: #000000!important;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.signin-card{
+    width: 350px;
+    height: 450px;
+    background-color: #1b1b1b;
+    /*position: relative;*/
+    /*top: 30px;*/
+    /*bottom: 5px;*/
+    /*margin: auto;*/
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding: 1em 2em;
+    border: 1px solid #cccccc;
+    display: table;
+}
+
+.signin-card-perk{
+    width: 350px;
+    height: 450px;
+    background-color: #1b1b1b;
+    /*position: relative;*/
+    /*top: 30px;*/
+    /*bottom: 5px;*/
+    margin-left:15px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    padding: 1em 2em;
+    border: 1px solid #cccccc;
+    display: table;
+}
+
+.signin-label{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+}
+
+.signin-fandango{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3px
+}
+
+.signin-vip{
+    color: #FF7900;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3px
+}
+
+.signin-perkcard{
+    color: #929292;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 30px;
+    padding: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.signin-perks{
+    color: #929292;
+    font-weight: bold;
+    margin-left: 60px;
+}
